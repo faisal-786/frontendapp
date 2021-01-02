@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: rgb(211, 211, 211);
+  background-color: rgb(172, 167, 167);
 }
 .header {
   background-color: blue;
@@ -11,7 +11,7 @@ body {
 }
 
 .div1 {
-  background-color: cornsilk;
+  background-color: white;
   margin-top: 5px;
 }
 
@@ -25,7 +25,7 @@ body {
 }
 
 .div2 {
-  background-color: cornsilk;
+  background-color: goldenrod;
   margin-top: 5rem;
   padding: 20px;
 }
@@ -50,7 +50,6 @@ body {
   background-color: grey;
 }
 
-/* Rating Star Widgets Style */
 .rating-stars ul {
   list-style-type: none;
   padding: 0;
@@ -62,18 +61,15 @@ body {
   display: inline-block;
 }
 
-/* Idle State of the stars */
 .rating-stars ul > li.star > i.fa {
-  font-size: 1.5em; /* Change the size of the stars */
-  color: #ccc; /* Color on idle state */
+  font-size: 1.5em; 
+  color: #ccc; 
 }
 
-/* Hover state of the stars */
 .rating-stars ul > li.star.hover > i.fa {
   color: #ffcc36;
 }
 
-/* Selected state of the stars */
 .rating-stars ul > li.star.selected > i.fa {
   color: #ff912c;
 }
