@@ -6,7 +6,7 @@ body {
   background-color: rgb(211, 211, 211);
 }
 .header {
-  background-color: black;
+  background-color: blue;
   padding: 0%;
 }
 
@@ -47,7 +47,7 @@ body {
 }
 
 .btn {
-  background-color: black;
+  background-color: grey;
 }
 
 /* Rating Star Widgets Style */
